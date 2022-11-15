@@ -64,7 +64,7 @@ const Themes = () => {
           <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
         </svg>
       </div>
-      <div className="dropdown-content bg-base-200 text-base-content rounded-t-box rounded-b-box top-px max-h-40 h-[70vh] w-52 overflow-y-auto shadow-2xl mt-16">
+      <div className="dropdown-content bg-base-200 text-base-content rounded-t-box rounded-b-box top-px max-h-32 h-[70vh] w-52 overflow-y-auto shadow-2xl mt-16">
         <div className="grid grid-cols-1 gap-3 p-3" tabIndex={0}>
           {themes.map((theme) => {
             return (

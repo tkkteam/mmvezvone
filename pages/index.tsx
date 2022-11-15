@@ -3,7 +3,11 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import axios from "axios";
-import {IBitkubTicker,ILatestRates,IUsdLumiCurrentPrice} from "../interfaces/responses";
+import {
+  IBitkubTicker,
+  ILatestRates,
+  IUsdLumiCurrentPrice,
+} from "../interfaces/responses";
 import Link from "next/link";
 import useSWR from "swr";
 import Navbar from "../components/Navbar";
@@ -18,6 +22,7 @@ const Home: NextPage = () => {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
   const [usdtdk, setusdtdk] = useState<number | null>(null);
+  const [usdtgold, setusdtgold] = useState<number | null>(null);
   const [usdlumi, setusdlumi] = useState<number | null>(null);
   const [kusdt, setkusdt] = useState<number | null>(null);
   const [thbUsdt, setThbUsdt] = useState<number | null>(null);
@@ -71,6 +76,10 @@ const Home: NextPage = () => {
           now - 10000
         }&to=${now}&currencyCode=USD`
       ),
+      axios.get(`https://api.bkc.loremboard.finance/charts/history?symbol=GOLD&resolution=15&from=${
+          now - 10000
+        }&to=${now}&currencyCode=USD`
+      ),
     ]);
     setThbbtc(responses[0].data.THB_BTC.last);
     setThbKub(responses[1].data.THB_KUB.last);
@@ -81,6 +90,7 @@ const Home: NextPage = () => {
     setusdtdk( responses[6].data.c[responses[6].data.c.length - 1] *responses[3].data.rates.USD);
     setusdlumi( responses[4].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
     setkusdt( responses[7].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
+    setusdtgold( responses[8].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
   };
 
   useEffect(() => {
@@ -494,9 +504,30 @@ const Home: NextPage = () => {
       </Head>   
       
       <Navbar />
-     
+      <div className="inline-flex flex items-center justify-center rounded-md" role="group">
+      <div className= "p-2 text-2xl  flex items-center justify-center">
+  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-l-lg border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+          <Link href="/Guide">
+            <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
+          </Link>
+  </button>
+  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent border-t border-b border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  <Link href="/map">
+            <h3 className="text-1xl font-bold">แผนที่เกม</h3>
+          </Link>
+  </button>
+  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  <Link href="/develop">
+            <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
+          </Link>
+  </button>
+</div>
+</div>
       <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
+      
+
         <div className="grid  grid-cols-2 gap-4 ">
+        
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <Image src="/icons/kub.png" alt="kub" width={80} height={80} />
@@ -740,6 +771,40 @@ const Home: NextPage = () => {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/gold.jpg" alt="gold" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!usdtgold}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!usdtgold}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(usdtgold || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">USD/GOLD</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div>
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <Image src="/icons/lumi.png" alt="lumi" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
@@ -823,13 +888,13 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-            <a className=" flex items-center justify-center">
-            <Link href="https://www.facebook.com/commutoken">
+		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
+            <Link href="https://www.facebook.com/commutoken/">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/YBJWCMz/Banner1.png' />
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
             </a>
           </Link>
-          </a>
+        </div>
           <div className="p-2 pl-5 pr-5  text-gray-100 text-lg rounded-lg focus:border-4  text-center">
           <Link href="https://www.p2pcontract.finance/">
             <a target="_blank">
@@ -842,44 +907,44 @@ const Home: NextPage = () => {
         </div> 
         <div className="container grid grid-cols-3 gap-2 mx-auto">
         <div className="w-full rounded hover:opacity-50">
-    <Link href="https://www.youtube.com/channel/UC6h8YpdgLs4YN8yHW4fYOPg">
+        <Link href="https://www.youtube.com/channel/UC6h8YpdgLs4YN8yHW4fYOPg">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg ' src='https://i.ibb.co/ZYwDGjT/Pondkub.jpg' />
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/ZYwDGjT/Pondkub.jpg" />
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/channel/UC75j9pHrdLinOMcfLjUXQIg">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/j35vh3V/278910218-115917581077317-6456500243265992292-n.jpg' />
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/j35vh3V/278910218-115917581077317-6456500243265992292-n.jpg" />
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/channel/UCxXyGeUUE8iYLbX5krjhHzA">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/80K5vWM/273485701-117076550882644-8357820669049442954-n.jpg' />       
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/80K5vWM/273485701-117076550882644-8357820669049442954-n.jpg" />       
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/c/CryptoRockBand">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/41WSCpX/Crypto-Rock.jpg' />
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/41WSCpX/Crypto-Rock.jpg" />
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/user/Huanathapong">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/g6cF7Zg/hua.jpg' />       
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/g6cF7Zg/hua.jpg" />       
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
-    <Link href="#">
+    <Link href="https://www.youtube.com/c/CHAINZ888">
             <a target="_blank">
-            <img className='max-w-full h-auto rounded-lg' src='https://i.ibb.co/Tw5mt92/vang1.jpg' />       
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/DRhjX3M/chainz888.jpg" />       
             </a>
           </Link>
     </div>
@@ -1467,7 +1532,7 @@ const Home: NextPage = () => {
           </Link>
         </div>
       </footer>
-    </div>
+        </div>
   );
 };
 export default Home;
