@@ -564,11 +564,11 @@ const Home: NextPage = () => {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/usdt.png" alt="usdt" width={80} height={80} />
+              <Image src="/icons/kub.png" alt="kub" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
               <CSSTransition
-                in={!thbUsdt}
+                in={!usdtkkub}
                 timeout={150}
                 classNames="pop"
                 unmountOnExit
@@ -582,55 +582,20 @@ const Home: NextPage = () => {
                 />
               </CSSTransition>
               <CSSTransition
-                in={!!thbUsdt}
+                in={!!usdtkkub}
                 timeout={150}
                 classNames="pop"
                 unmountOnExit
               >
                 <div className="absolute flex flex-col">
                   <h1 className="font-bold">
-                    {(thbUsdt || 0).toLocaleString("th-TH")}
+                    {(usdtkkub || 0).toLocaleString("th-TH")}
                   </h1>
-                  <p className="text-2xs opacity-60">THB/USDT</p>
+                  <p className="text-2xs opacity-60">USD/KUB</p>
                 </div>
               </CSSTransition>
             </div>
-          </div>
-          
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/btc.png" alt="btc" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!thbbtc}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!thbbtc}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(thbbtc || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">THB/BTC</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
+          </div> 
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <Image src="/icons/lumi.png" alt="lumi" width={80} height={80} />
@@ -669,142 +634,6 @@ const Home: NextPage = () => {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/kub.png" alt="kub" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!usdtkkub}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!usdtkkub}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(usdtkkub || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">USD/KUB</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div> 
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/usdt.png" alt="usdt" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!kusdt}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!kusdt}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(kusdt || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">KUSD/USD</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div> 
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/dkusd.png" alt="dkusd" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!usdtdk}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!usdtdk}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(usdtdk || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">USD/DK</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/gold.jpg" alt="gold" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!usdtgold}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!usdtgold}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(usdtgold || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">USD/GOLD</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <Image src="/icons/lumi.png" alt="lumi" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
@@ -835,6 +664,143 @@ const Home: NextPage = () => {
                     )}
                   </h1>
                   <p className="text-2xs opacity-60">USD/LUMI</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div>
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/usdt.png" alt="usdt" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!thbUsdt}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!thbUsdt}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(thbUsdt || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">THB/USDT</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div>
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/usdt.png" alt="usdt" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!kusdt}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!kusdt}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(kusdt || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">KUSD/USDT</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div> 
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/btc.png" alt="btc" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!thbbtc}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!thbbtc}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(thbbtc || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">THB/BTC</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div>
+          
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/dkusd.png" alt="dkusd" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!usdtdk}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!usdtdk}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(usdtdk || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">USD/DK</p>
                 </div>
               </CSSTransition>
             </div>
@@ -887,6 +853,42 @@ const Home: NextPage = () => {
               </CSSTransition>
             </div>
           </div>
+          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
+              <Image src="/icons/gold.jpg" alt="gold" width={80} height={80} />
+            </div>
+            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
+              <CSSTransition
+                in={!usdtgold}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <Image
+                  className="absolute"
+                  src="/images/chicken_loading.gif"
+                  alt="chicken_loading"
+                  width={36}
+                  height={36}
+                />
+              </CSSTransition>
+              <CSSTransition
+                in={!!usdtgold}
+                timeout={150}
+                classNames="pop"
+                unmountOnExit
+              >
+                <div className="absolute flex flex-col">
+                  <h1 className="font-bold">
+                    {(usdtgold || 0).toLocaleString("th-TH")}
+                  </h1>
+                  <p className="text-2xs opacity-60">USD/GOLD</p>
+                </div>
+              </CSSTransition>
+            </div>
+          </div>
+          
+          
         </div>
 		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
             <Link href="https://www.facebook.com/commutoken/">
