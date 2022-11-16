@@ -891,7 +891,7 @@ const Home: NextPage = () => {
 		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
             <Link href="https://www.facebook.com/commutoken/">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" alt=""/>
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
             </a>
           </Link>
         </div>
@@ -909,28 +909,28 @@ const Home: NextPage = () => {
         <div className="w-full rounded hover:opacity-50">
         <Link href="https://www.youtube.com/channel/UC6h8YpdgLs4YN8yHW4fYOPg">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/ZYwDGjT/Pondkub.jpg" alt=""/>
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/ZYwDGjT/Pondkub.jpg" />
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/channel/UC75j9pHrdLinOMcfLjUXQIg">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/j35vh3V/278910218-115917581077317-6456500243265992292-n.jpg" alt=""/>
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/j35vh3V/278910218-115917581077317-6456500243265992292-n.jpg" />
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/channel/UCxXyGeUUE8iYLbX5krjhHzA">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/80K5vWM/273485701-117076550882644-8357820669049442954-n.jpg" alt=""/>       
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/80K5vWM/273485701-117076550882644-8357820669049442954-n.jpg" />       
             </a>
           </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/c/CryptoRockBand">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/41WSCpX/Crypto-Rock.jpg" alt=""/>
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/41WSCpX/Crypto-Rock.jpg" />
             </a>
           </Link>
     </div>
@@ -944,7 +944,7 @@ const Home: NextPage = () => {
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.youtube.com/c/CHAINZ888">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/DRhjX3M/chainz888.jpg" alt=""/>       
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/DRhjX3M/chainz888.jpg" />       
             </a>
           </Link>
     </div>

@@ -46,17 +46,7 @@ import Link from "next/link";
         <p>- Home Customization : ระบบปรับแต่งบ้านของชาวหมู่บ้าน</p>
         <p>- Mobile Support (Alpha) : การพัฒนาเพื่อให้เกมรองรับการเล่นบนอุปกรณ์มือถือ (เวอร์ชันทดสอบ Alpha)</p>
         </div>
-        <div className="inline-flex flex items-center justify-center rounded-md" role="group">
-      <div className= "p-2 text-2xl  flex items-center justify-center">
-  <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-  <Link href="/">
-            <h3 className="text-1xl font-bold">กลับหน้าหลัก</h3>
-          </Link>
-  </span>
-</button>
-</div>
-</div>
+       
     </div>
     
   );

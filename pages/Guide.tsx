@@ -17,7 +17,7 @@ import Link from "next/link";
     
     <Link href="/weapon">
             <img className="object-cover w-full h-50 hover:opacity-50" 
-            src="https://i.ibb.co/9rkr766/joe1.png"/> 
+            src="https://i.ibb.co/9rkr766/joe1.png"alt=""/> 
           </Link>
           </div>
       <div className="px-6 py-4">
@@ -31,7 +31,7 @@ import Link from "next/link";
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
     <Link href="/Bait">
-            <img className="object-cover w-full h-50 hover:opacity-50" src="https://i.ibb.co/RzGdDxT/joe-bait.png" /> 
+            <img className="object-cover w-full h-50 hover:opacity-50" src="https://i.ibb.co/RzGdDxT/joe-bait.png" alt=""/> 
           </Link>
           </div>
       <div className="px-6 py-4">
