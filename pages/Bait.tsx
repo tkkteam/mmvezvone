@@ -12,7 +12,7 @@ function Bait() {
       </Head> 
       <Navbar />
       <div className= "p-2 text-2xl  flex items-center justify-center">
-        <p>ตารางตีบวกอาวุธ The Mayor</p>
+        <p>ตารางตีบวกเบ็ดระดับ Rare</p>
         </div>
         <div className= "p-2 text-1xl overline flex items-center justify-center">
         <p>ไอเทมตีบวก - หาซื้อได้จากร้านค้าในเพจ MorningMoon Village</p>
