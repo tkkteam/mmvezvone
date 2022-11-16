@@ -1501,8 +1501,9 @@ const Home: NextPage = () => {
       </div>
       <footer className="footer bg-neutral text-neutral-content items-center gap-4 p-4">
         <div className="items-center grid-flow-col">
-          <p>Copyright © 2022 - All right reserved Powerby TATUM-IT</p><p>Credit artzeeker</p>
+        <p>Copyright © 2022 - All right reserved Powerby TATUM-IT</p><p>Credit artzeeker</p><p>Google analytics</p>
         </div>
+        
         <div className="md:place-self-center md:justify-self-end grid-flow-col gap-4">
           <Link href="https://www.facebook.com/tatummaster">
             <a target="_blank">
