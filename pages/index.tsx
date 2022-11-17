@@ -504,8 +504,8 @@ const Home: NextPage = () => {
       </Head>   
       
       <Navbar />
-      <div className="inline-flex flex items-center justify-center rounded-md" role="group">
-      <div className= "p-2 text-2xl  flex items-center justify-center">
+      <div className="flex flex-col">
+                <div className="flex-1 text-center p-5">
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
   <Link href="/Guide">
   <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
