@@ -22,47 +22,60 @@ import Head from "next/head";
         <div className="flex flex-row p-5">
         <div className="tooltip peer-hover:visible self-center"data-tip="tool-fragment">
             <button>
-            <img  src="/item/tool-fragment.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/tool-fragment.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="rag">
             <button>
-            <img  src="/item/rag.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/rag.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+           
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="scrap-metal">
             <button>
-            <img  src="/item/scrap-metal.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+             <Image 
+             width={50}
+             height={50}
+             src="/item/scrap-metal.png"
+             objectFit="cover"
+             alt="Picture of the author"
+                         />
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="leather-piece">
             <button>
-            <img  src="/item/leather-piece.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+             width={50}
+             height={50}
+             src="/item/leather-piece.png"
+             objectFit="cover"
+             alt="Picture of the author"
+                         />
+            
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="LUMI">
             <button>
-               <img  src="/item/lumi.png"
-               width={50}
-               height={50}
-               alt=""
-               />
+            <Image 
+             width={50}
+             height={50}
+             src="/item/lumi.png"
+             objectFit="cover"
+             alt="Picture of the author"
+                         />
+               
               </button>
             </div>
                 </div>
@@ -90,74 +103,97 @@ import Head from "next/head";
         <div className="tooltip peer-hover:visible self-center"data-tip="tool-fragment">
           
             <button>
-            <img  src="/item/tool-fragment.png"
-             width={50}
-             height={50}
-             alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/tool-fragment.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="rag">
             <button>
-            <img  src="/item/rag.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/rag.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+           
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="scrap-metal">
             <button>
-            <img  src="/item/scrap-metal.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/scrap-metal.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+          
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="leather-piece">
             <button>
-            <img  src="/item/leather-piece.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/leather-piece.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+           
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="runic-essence">
             <button>
-            <img  src="/item/runic-essence.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/runic-essence.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+            
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="mystic-oil">
             <button>
-            <img  src="/item/mystic-oil.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/mystic-oil.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+           
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="arcane-powder">
             <button>
-            <img  src="/item/arcane-powder.png"
-            width={50}
-            height={50}
-            alt=""
-            />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/arcane-powder.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+           
               </button>
             </div>
             <div className="tooltip peer-hover:visible self-center"data-tip="LUMI">
             <button>
-               <img  src="/item/lumi.png"
-               width={50}
-               height={50}
-               alt=""
-               />
+            <Image 
+    width={50}
+    height={50}
+    src="/item/lumi.png"
+    objectFit="cover"
+    alt="Picture of the author"
+                />
+              
               </button>
             </div>
                 </div>
