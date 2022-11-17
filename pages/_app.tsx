@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import Head from "next/head";
 import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -10,7 +9,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     strategy="lazyOnload"
     src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS="G-HG67SWCXZS"}`}
   />
-
   <Script strategy="lazyOnload">
     {`
         window.dataLayer = window.dataLayer || [];
