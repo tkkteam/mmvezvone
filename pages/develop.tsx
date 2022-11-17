@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
-
+import Image from "next/image";
 
  function develop() {
   return (
@@ -10,7 +10,7 @@ import Link from "next/link";
     <Head>
         <title>ประกาศอัปเดต- MorningMoon Village</title>
       </Head> 
-    
+
       <Navbar />
       <div className="w-full p-10">
     <div className= "p-2 text-3xl  flex items-center justify-center">
@@ -20,11 +20,18 @@ import Link from "next/link";
         <p>ในอนาคต (Roadmap).</p>
         </div>
         <div className="p-2 pl-5 pr-5  text-gray-100 text-lg rounded-lg focus:border-4  text-center">
-      <Link href="https://www.facebook.com/MorningMoonVillageOfficial">
+        <Link href="https://www.facebook.com/MorningMoonVillageOfficial" passHref>
       <a className= "flex items-center justify-center" target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/jwZdvrb/2023.jpg" />
-            </a>
-          </Link>
+        <Image 
+              width={1200}
+              height={650}
+              src="https://i.ibb.co/jwZdvrb/2023.jpg"
+              objectFit="cover"
+              alt="Picture of the author"
+              className="object-cover w-full"
+                />
+                </a>
+                </Link>
         </div>
 
         <p>📌 Q4 2022 (ปัจจุบัน - ธันวาคม)</p>
@@ -45,10 +52,12 @@ import Link from "next/link";
         <p>📌 Q2 2023 (เมษายน - มิถุนายน)</p>
         <p>- Home Customization : ระบบปรับแต่งบ้านของชาวหมู่บ้าน</p>
         <p>- Mobile Support (Alpha) : การพัฒนาเพื่อให้เกมรองรับการเล่นบนอุปกรณ์มือถือ (เวอร์ชันทดสอบ Alpha)</p>
+
         </div>
-       
+
     </div>
-    
+
   );
+  
 };
 export default develop;
