@@ -46,7 +46,7 @@ function imploss() {
         <div className="flex flex-col">
             <div className="flex-1 text-center">
       <Image 
-      src="https://i.ibb.co/5X0Kqv1/IM03.jpg" 
+      src="https://i.ibb.co/fYyByLP/IM04.jpg" 
       alt=""
         width={900}
         height={600}
@@ -58,7 +58,7 @@ function imploss() {
         <div className="flex flex-col">
             <div className="flex-1 text-center">
       <Image 
-      src="https://i.ibb.co/fYyByLP/IM04.jpg" 
+      src="https://i.ibb.co/5X0Kqv1/IM03.jpg" 
       alt=""
         width={900}
         height={600}
