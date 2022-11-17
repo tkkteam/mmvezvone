@@ -38,6 +38,7 @@ import Image from "next/image";
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
     <Link href="/Bait">
+      <a>
     <Image 
     width={450}
     height={350}
@@ -46,6 +47,7 @@ import Image from "next/image";
     alt="Picture of the author"
     className="object-cover w-full h-50 hover:opacity-50"
                 />
+                </a>
           </Link>
           </div>
       <div className="px-6 py-4">
