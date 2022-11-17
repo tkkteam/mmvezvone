@@ -512,12 +512,12 @@ const Home: NextPage = () => {
     </Link>
   </button>
   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  <Link href="/map">
+  <Link href="/tutorials/map">
   <h3 className="text-1xl font-bold">แผนที่เกม</h3>
     </Link>
   </button>
   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  <Link href="/develop">
+  <Link href="/tutorials/develop">
   <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
     </Link>
   </button>

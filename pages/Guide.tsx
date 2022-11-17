@@ -16,7 +16,7 @@ import Image from "next/image";
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
   <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
     
-    <Link href="/weapon" passHref>
+    <Link href="/tutorials/weapon" passHref>
     <a>
     <Image 
     width={450}
@@ -39,7 +39,7 @@ import Image from "next/image";
     </div>
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
-    <Link href="/Bait" passHref>
+    <Link href="/tutorials/Bait" passHref>
       <a>
     <Image 
     width={450}
@@ -62,7 +62,7 @@ import Image from "next/image";
       </div>
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
-    <Link href="/imploss" passHref>
+    <Link href="/tutorials/imploss" passHref>
       <a>
     <Image 
     width={450}
