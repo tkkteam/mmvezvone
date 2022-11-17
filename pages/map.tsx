@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
  function map() {
   return (
@@ -93,7 +94,16 @@ import Head from "next/head";
         />
             </div>
         </div>
-       
+        <div className="flex flex-col">
+                <div className="flex-1 text-center">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+  <li><Link href="/Guide">กลับหน้า แนะนำการเล่น</Link></li>
+  </button>
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+  <li><Link href="/">กลับหน้า คำนวนผลผลิต</Link></li>
+  </button>
+</div>
+</div>
              </div>
         </div>
      

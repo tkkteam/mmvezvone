@@ -506,20 +506,20 @@ const Home: NextPage = () => {
       <Navbar />
       <div className="inline-flex flex items-center justify-center rounded-md" role="group">
       <div className= "p-2 text-2xl  flex items-center justify-center">
-  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-l-lg border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-          <Link href="/Guide">
-            <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
-          </Link>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+  <Link href="/Guide">
+  <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
+    </Link>
   </button>
-  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent border-t border-b border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
   <Link href="/map">
-            <h3 className="text-1xl font-bold">แผนที่เกม</h3>
-          </Link>
+  <h3 className="text-1xl font-bold">แผนที่เกม</h3>
+    </Link>
   </button>
-  <button type="button" className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
   <Link href="/develop">
-            <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
-          </Link>
+  <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
+    </Link>
   </button>
 </div>
 </div>
