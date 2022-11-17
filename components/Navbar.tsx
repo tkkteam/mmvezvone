@@ -18,7 +18,6 @@ const Navbar = () => {
         <li><Link href="/map">แผนที่เกม</Link></li>
         <li><Link href="/develop">ประกาศอัปเดต</Link></li>
       </ul>
-     
     </div>
       <div className="flex flex-1 ml-2 space-x-2">
         <div className="aspect-square flex flex-col items-center justify-center w-10 h-10">
