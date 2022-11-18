@@ -8,7 +8,7 @@ function Weaponfish() {
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>ตีบวกเบ็ดตกปลา- MorningMoon Village</title>
+        <title>ตีบวกเบ็ดตกปลา</title>
       </Head> 
       <Navbar />
       <div className= "p-2 text-2xl  flex items-center justify-center">

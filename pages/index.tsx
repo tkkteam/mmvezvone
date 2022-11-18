@@ -1076,7 +1076,7 @@ const Home: NextPage = () => {
 
           {plantKind !== "LUMI" && (
             <div className="
-             relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 self-center">
+             relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 self-center">
               <button
                 className={`text-white  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-2xs px-4 py-1 text-center mr-2 mb-2${
                   seedKind === "TOMATO" ? " btn-active" : ""
@@ -1206,7 +1206,7 @@ const Home: NextPage = () => {
                 COFFEE
               </button>
               <button
-                className={`text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-2xs px-4 py-1 text-center mr-2 mb-2${
+                className={`text-white bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-2xs px-4 py-1 text-center mr-2 mb-2${
                   seedKind === "FISHFOOD" ? " btn-active" : ""
                 }`}
                 onClick={() => {
