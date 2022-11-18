@@ -9,7 +9,7 @@ import Link from "next/link";
   return (
     <div className="bg-base-200 flex flex-col w-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>ตีบวกอุปกรณ์- MorningMoon Village</title>
+        <title>ตีบวกอุปกรณ์</title>
       </Head> 
     
       <Navbar />

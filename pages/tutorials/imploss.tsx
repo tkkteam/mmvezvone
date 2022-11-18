@@ -9,7 +9,7 @@ function imploss() {
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>Impermannent loss- MorningMoon Village</title>
+        <title>Impermannent loss</title>
       </Head> 
       <Navbar />
       <div className= "p-2 text-2xl  flex items-center justify-center">

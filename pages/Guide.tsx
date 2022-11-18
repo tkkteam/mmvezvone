@@ -21,7 +21,7 @@ import Image from "next/image";
     <Image 
     width={450}
     height={350}
-    src="https://i.ibb.co/9rkr766/joe1.png"
+    src="https://i.ibb.co/hKvvMjh/Themayor.png"
     objectFit="cover"
     alt="Picture of the author"
     className="object-cover w-full h-50 hover:opacity-50"

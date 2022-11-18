@@ -7,7 +7,7 @@ import Link from "next/link";
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>แผนที่ในเกม- Morningmoon</title>
+        <title>แผนที่ในเกม- MorningmoonVillage</title>
       </Head> 
       <Navbar />
       <div className="w-full p-10">
