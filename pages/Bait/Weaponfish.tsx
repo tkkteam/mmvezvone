@@ -4,7 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
-function Bait() {
+function Weaponfish() {
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
@@ -96,4 +96,4 @@ function Bait() {
               </div>
   ); 
 };
-export default Bait;
+export default Weaponfish;

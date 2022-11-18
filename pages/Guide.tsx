@@ -39,12 +39,12 @@ import Image from "next/image";
     </div>
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
-    <Link href="/tutorials/Bait" passHref>
+    <Link href="/Bait/guide" passHref>
       <a>
     <Image 
     width={450}
     height={350}
-    src="https://i.ibb.co/RzGdDxT/joe-bait.png"
+    src="https://i.ibb.co/HDXbbng/bait1.png"
     objectFit="cover"
     alt="Picture of the author"
     className="object-cover w-full h-50 hover:opacity-50"
@@ -53,8 +53,8 @@ import Image from "next/image";
           </Link>
           </div>
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">การตีบวกเบ็ดตกปลา</div>
-        <p className="text-base">รวมข้อมูลการตีบวกเบ็ดตกปลา ระดับ Rare Epic Legendart Relic ตั้งแต่ Lv.1-7 ใช้ของกี่ชิ้นมีอะไรบ้าง</p>
+        <div className="font-bold text-xl mb-2">แนะนำเบ็ดตกปลา</div>
+        <p className="text-base">รวมข้อมูลเบ็ดตกปลา การตีบวกเบ็ดตกปลา ระดับ Rare Epic Legendart Relic ตั้งแต่ Lv.1-7 ใช้ของกี่ชิ้นมีอะไรบ้าง</p>
       </div>
         <div className="px-6 pt-4">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ตีบวกเบ็ดตกปลา</span>
