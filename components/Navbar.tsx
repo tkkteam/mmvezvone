@@ -13,10 +13,10 @@ const Navbar = () => {
       <p>MENU</p>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><Link href="/">คำนวณผลผลิตต่อวัน</Link></li>
-        <li><Link href="/Guide">แนะนำการเล่น</Link></li>
-        <li><Link href="/map">แผนที่เกม</Link></li>
-        <li><Link href="/develop">ประกาศอัปเดต</Link></li>
+        <li><Link href="/"passHref>คำนวณผลผลิตต่อวัน</Link></li>
+        <li><Link href="/Guide"passHref>แนะนำการเล่น</Link></li>
+        <li><Link href="/tutorials/map"passHref>แผนที่เกม</Link></li>
+        <li><Link href="/tutorials/develop"passHref>ประกาศอัปเดต</Link></li>
       </ul>
     </div>
       <div className="flex flex-1 ml-2 space-x-2">

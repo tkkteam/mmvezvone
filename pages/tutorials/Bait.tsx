@@ -82,14 +82,17 @@ function Bait() {
               </div>
               <div className="flex flex-col">
                 <div className="flex-1 text-center">
-  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  <li><Link href="/Guide">กลับหน้า แนะนำการเล่น</Link></li>
+                <div className="px-6 pt-4"></div>
+  <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
+  <li><Link href="/Guide" passHref >กลับหน้า แนะนำการเล่น</Link></li>
   </button>
-  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  <li><Link href="/">กลับหน้า คำนวนผลผลิต</Link></li>
+  <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
+  <li><Link href="/" passHref>กลับหน้า คำนวนผลผลิต</Link></li>
   </button>
+  <div className="px-6 pt-4"></div>
 </div>
 </div>
+             
               </div>
   ); 
 };
