@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "../../components/Navbar";
+import Nav from "../../components/Nav";
 
  function guide() {
   return (
@@ -10,7 +10,7 @@ import Navbar from "../../components/Navbar";
     <Head>
         <title>แนะนำเบ็ดตกปลา- MorningMoon Village</title>
       </Head> 
-      <Navbar />
+      <Nav />
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"> 
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
   <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
