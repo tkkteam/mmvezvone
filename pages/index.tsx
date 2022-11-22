@@ -510,15 +510,23 @@ const Home: NextPage = () => {
       <div>
       <div className="text-green-500">
 <Marquee
-        speed={100} // Speed of the marquee (Optional)
+        speed={70} // Speed of the marquee (Optional)
         style={{
           height: 40 // Your own styling (Optional)
         }}
       >
         
-        <p>เซิร์ฟเวอร์เปิดให้บริการตามปกติ หากทางผู้เล่นพบปัญหาในการเล่นเกม สามารถแจ้งปัญหาหรือติดต่อได้ที่ Facbook :MorningMoonVillageOfficial</p>
+        <p>เซิร์ฟเวอร์เปิดให้บริการตามปกติ หากทางผู้เล่นพบปัญหาในการเล่นเกม สามารถแจ้งปัญหาหรือติดต่อได้ที่ Facbook:<Link href="https://www.facebook.com/MorningMoonVillageOfficial">
+            <a target="_blank">
+           MorningMoonVillageOfficial
+            </a>
+            
+          </Link>
+          
+    </p>
        
       </Marquee>
+      
       </div>
         </div> 
       <div className="flex flex-col">

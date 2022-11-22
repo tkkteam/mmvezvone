@@ -33,7 +33,7 @@ import Image from "next/image";
         <p className="text-base">แนะนำการเล่น เรื่องราวของเกม จุดเด่นของเกม</p>
       </div>
         <div className="px-6 pt-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ตีบวกอาวุธ</span>
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#แนะนำเกม</span>
       </div>
     </div>
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
