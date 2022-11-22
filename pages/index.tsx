@@ -3,6 +3,8 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import axios from "axios";
+import Marquee from "react-fast-marquee";
+
 import {
   IBitkubTicker,
   ILatestRates,
@@ -497,6 +499,7 @@ const Home: NextPage = () => {
     totalLiquidity,
   ]);
 
+       
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
@@ -504,6 +507,20 @@ const Home: NextPage = () => {
       </Head>   
       
       <Navbar />
+      <div>
+      <div className="text-green-500">
+<Marquee
+        speed={100} // Speed of the marquee (Optional)
+        style={{
+          height: 40 // Your own styling (Optional)
+        }}
+      >
+        
+        <p>เซิร์ฟเวอร์เปิดให้บริการตามปกติ หากทางผู้เล่นพบปัญหาในการเล่นเกม สามารถแจ้งปัญหาหรือติดต่อได้ที่ Facbook :MorningMoonVillageOfficial</p>
+       
+      </Marquee>
+      </div>
+        </div> 
       <div className="flex flex-col">
                 <div className="flex-1 text-center p-5">
       <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
