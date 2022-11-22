@@ -1,7 +1,6 @@
 import Nav from "../../components/Nav";
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 
  function map() {
   return (

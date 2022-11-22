@@ -10,7 +10,6 @@ import Image from "next/image";
     <Head>
         <title>แนะนำการเล่น- MorningMoon Village</title>
       </Head> 
-    
       <Nav />
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"> 
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -90,9 +89,9 @@ import Image from "next/image";
     <Image 
     width={450}
     height={350}
-    src="https://i.ibb.co/8mgfHcN/imploss.png"
+    src="https://i.ibb.co/42MmNXF/learning.png"
     objectFit="cover"
-    alt="Picture of the author"
+    alt="learning"
     className="object-cover w-full h-50 hover:opacity-50"
                 />
                 </a>
@@ -103,7 +102,7 @@ import Image from "next/image";
         <p className="text-base">เกร็ดความรู้ ทั่วไปเกี่ยวกับ MorningMoon Village การแก้ปัญหาต่างๆภายในเกม วิธีใช้งานไอเทม และอื่นๆ</p>
       </div>
         <div className="px-6 pt-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Impermannent loss</span>
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ความรู้ทั่วไป</span>
       </div>
       </div>
       </div>

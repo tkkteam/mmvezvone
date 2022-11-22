@@ -2,21 +2,21 @@ import React from "react";
 import Nav from "../../components/Nav";
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 
 
  function weapon() {
   return (
-    <div className="bg-base-200 flex flex-col w-screen overflow-auto min-w-[20rem]">
+
+    <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>ตีบวกอุปกรณ์</title>
+        <title>แผนที่ในเกม- MorningmoonVillage</title>
       </Head> 
-    
       <Nav />
+      <div className="w-full p-10">
       <div className= "p-2 text-2xl  flex items-center justify-center">
-        <p>ตารางตีบวกอาวุธ The Mayor</p>
+      <p>ตารางตีบวกอาวุธ The Mayor</p>
         </div>
-        <div className= "p-2 text-1xl overline flex items-center justify-center">
+        <div className= "text-1xl overline flex items-center justify-center">
         <p>ไอเทมตีบวก-หาซื้อได้จากร้านค้าในเพจ MorningMoon Village</p>
         </div>
         <div className= " text-2xl  flex items-center justify-center">
@@ -87,7 +87,7 @@ import Link from "next/link";
       <Image 
       src="/weapon/001.png" 
       alt="shop"
-        width={850}
+        width={830}
         height={500}
         priority
         />
@@ -205,15 +205,14 @@ import Link from "next/link";
       <Image 
       src="/weapon/002.png" 
       alt="shop"
-        width={850}
+        width={830}
         height={500}
         priority
         />
           </div>
             </div>
-             </div>
-             
-                
+             </div>   
+                </div>
   );
 };
 export default weapon;

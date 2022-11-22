@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Nav from "../../components/Nav";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,7 +11,7 @@ import Image from "next/image";
         <title>ประกาศอัปเดต- MorningMoon Village</title>
       </Head> 
 
-      <Navbar />
+      <Nav />
       <div className="w-full p-10">
     <div className= "p-2 text-3xl  flex items-center justify-center">
         <p>ประกาศอัปเดตแผนพัฒนาเกม Morning Moon Village</p>
@@ -24,7 +24,7 @@ import Image from "next/image";
       <a className= "flex items-center justify-center" target="_blank">
         <Image 
               width={1200}
-              height={650}
+              height={700}
               src="https://i.ibb.co/jwZdvrb/2023.jpg"
               objectFit="cover"
               alt="Picture of the author"

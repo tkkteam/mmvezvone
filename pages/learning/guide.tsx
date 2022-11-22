@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import Nav from "../../components/Nav";
 
  function guide() {
@@ -22,9 +22,9 @@ import Nav from "../../components/Nav";
         <Image 
             width={350}
             height={350}
-            src="https://i.ibb.co/8mgfHcN/imploss.png"
+            src="/icons/mmv_logo.png"
             objectFit="cover"
-            alt="Picture of the author"
+            alt="mmv_logo"
             className="h-24 w-24 rounded  mx-auto hover:opacity-50"
           />
         </div>
@@ -37,7 +37,9 @@ import Nav from "../../components/Nav";
         <span className="inline-block rounded-full">
         <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
     <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+    <Link href="/learning/1"passHref>
     <span className="relative  group-hover:text-white">Learn More</span>
+    </Link>
   </button></span>
       </div>
         </div>
