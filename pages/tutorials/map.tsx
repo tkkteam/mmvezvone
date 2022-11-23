@@ -6,7 +6,7 @@ import Nav from "../../components/Nav";
 
 
 type mmvmap = "map" | "mapshow";
-type allmap = "WORLDMAP" | "TheCrossing" | "FloralWoods" | "FORSAKENSANDS"| "POISONGARDEN"| "TOXICLAKE"| "TROPICALBEACH";
+type allmap = "WORLDMAP" | "THECROSSING" | "FLORALWOODS" | "FORSAKENSANDS"| "POISONGARDEN"| "TOXICLAKE"| "TROPICALBEACH";
 
 const mapmmv: NextPage = () => {
   const [mmvmap, defaultmap] = useState<mmvmap>("map");
@@ -34,10 +34,10 @@ const mapmmv: NextPage = () => {
                   case "WORLDMAP":
                    
                     break;
-                  case "TheCrossing":
+                  case "THECROSSING":
                    
                     break;
-                  case "FloralWoods":
+                  case "FLORALWOODS":
                    
                     break;
                   case "FORSAKENSANDS":
@@ -75,15 +75,15 @@ const mapmmv: NextPage = () => {
                   }
                 }}
               >
-                worldmap
+                WORLDMAP
               </button>
 
               <button
                 className={`text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ${
-                  allmap === "TheCrossing" ? " btn-active" : ""
+                  allmap === "THECROSSING" ? " btn-active" : ""
                 }`}
                 onClick={() => {
-                  Loadmap("TheCrossing");
+                  Loadmap("THECROSSING");
                   switch (mmvmap) {
                     case "map":
                      
@@ -91,15 +91,15 @@ const mapmmv: NextPage = () => {
                   }
                 }}
               >
-                TheCrossing
+                THECROSSING
               </button>
 
               <button
                 className={`text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ${
-                  allmap === "FloralWoods" ? " btn-active" : ""
+                  allmap === "FLORALWOODS" ? " btn-active" : ""
                 }`}
                 onClick={() => {
-                  Loadmap("FloralWoods");
+                  Loadmap("FLORALWOODS");
                   switch (mmvmap) {
                     case "map":
                      
@@ -107,7 +107,7 @@ const mapmmv: NextPage = () => {
                   }
                 }}
               >
-               FloralWoods
+              FLORALWOODS
               </button>
 
               <button
