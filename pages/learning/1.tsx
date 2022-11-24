@@ -13,7 +13,7 @@ import Nav from "../../components/Nav";
       <Nav/>
       <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
       <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
-          <h1 className="text-lg font-medium text-center">ความรู้ทั่วไปเกี่ยวกับเกม MorningMoon Village</h1>
+          <h1 className="text-lg font-medium text-center">เกร็ดความรู้ THE MAYOR</h1>
       </div>
       </div>
       

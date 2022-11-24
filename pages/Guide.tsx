@@ -39,7 +39,7 @@ import Image from "next/image";
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
   <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
     
-    <Link href="/tutorials/weapon" passHref>
+    <Link href="/weapon/guide" passHref>
     <a>
     <Image 
     width={450}
@@ -53,8 +53,8 @@ import Image from "next/image";
           </Link>
           </div>
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">การตีบวกไอเทม The Mayor</div>
-        <p className="text-base">รวมข้อมูลการตีบวกไอเทมที่ซื้อมาจากร้าน The Mayor มีขวาน ค้อน คฑา ตั้งแต่ Lv.1-7 ใช้ของกี่ชิ้นมีอะไรบ้าง</p>
+        <div className="font-bold text-xl mb-2">การตีบวกไอเทมต่างๆในเกม</div>
+        <p className="text-base">รวมข้อมูลการตีบวกไอเทมที่ซื้อมาจากร้าน The Mayor มีขวาน ค้อน คฑา เบ็ดตกปลา ตั้งแต่ Lv.1-7 ใช้ของกี่ชิ้นมีอะไรบ้าง</p>
       </div>
         <div className="px-6 pt-4">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ตีบวกอาวุธ</span>
@@ -77,33 +77,10 @@ import Image from "next/image";
           </div>
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">แนะนำเบ็ดตกปลา</div>
-        <p className="text-base">รวมข้อมูลเบ็ดตกปลา การตีบวกเบ็ดตกปลา ระดับ Rare Epic Legendart Relic ตั้งแต่ Lv.1-7 ใช้ของกี่ชิ้นมีอะไรบ้าง</p>
+        <p className="text-base">รวมข้อมูลเบ็ดตกปลา</p>
       </div>
         <div className="px-6 pt-4">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#แนะนำเบ็ดตกปลา</span>
-      </div>
-      </div>
-      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
-    <Link href="/tutorials/imploss" passHref>
-      <a>
-    <Image 
-    width={450}
-    height={350}
-    src="https://i.ibb.co/8mgfHcN/imploss.png"
-    objectFit="cover"
-    alt="Picture of the author"
-    className="object-cover w-full h-50 hover:opacity-50"
-                />
-                </a>
-          </Link>
-          </div>
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">Impermannent loss คืออะไร</div>
-        <p className="text-base">Impermannent loss คืออะไร  ลงทุนไปแล้วเหรียญขึ้นสูงทำไหมขาดทุน ?</p>
-      </div>
-        <div className="px-6 pt-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Impermannent loss</span>
       </div>
       </div>
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">

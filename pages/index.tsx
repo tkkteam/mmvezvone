@@ -548,6 +548,7 @@ const Home: NextPage = () => {
   <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
     </Link>
 </button>
+
 </div>
 </div>
       <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
