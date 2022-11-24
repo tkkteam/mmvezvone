@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../../components/Nav";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
 
 function imploss() {
@@ -14,6 +15,20 @@ function imploss() {
       <div className= "p-2 text-2xl  flex items-center justify-center">
         <p>Impermannent loss คืออะไร</p>
         </div>
+        
+        <div className="flex-1 text-center">
+      <div className="hover:opacity-50">
+       <Link href="/learning/guide" passHref>
+          <Image
+                src="/icons/backmenu.png"
+                alt="backmemu"
+                width={100}
+                height={100}
+              />
+              </Link>
+              
+              </div>
+              </div>
         <div className="flex flex-col">
         <div className="flex-1 text-center">
       <Image 
