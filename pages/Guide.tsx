@@ -106,6 +106,29 @@ import Image from "next/image";
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ความรู้ทั่วไป</span>
       </div>
       </div>
+      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+    <Link href="/GiftBox/allgiftbox" passHref>
+      <a>
+    <Image 
+    width={450}
+    height={350}
+    src="https://i.ibb.co/TD39rGv/box.png"
+    objectFit="cover"
+    alt="learning"
+    className="object-cover w-full h-50 hover:opacity-50"
+                />
+                </a>
+          </Link>
+          </div>
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">กล่องของขวัญ</div>
+        <p className="text-base">กล่องของขวัญ คือกล่องที่จะมอบรางวัลเป็นสินทรัพย์ในเกมให้ผู้เปิดกล่องแบบสุ่ม กล่องของขวัญมีหลายประเภท แต่ละประเภทจะให้รางวัลที่แตกต่างกัน</p>
+      </div>
+        <div className="px-6 pt-4">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#กล่องของขวัญ</span>
+      </div>
+      </div>
       </div>
       </div>
   

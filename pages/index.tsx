@@ -529,25 +529,15 @@ const Home: NextPage = () => {
       
       </div>
         </div> 
+        
       <div className="flex flex-col">
-                <div className="flex-1 text-center p-5">
+       <div className="flex-1 text-center p-5">
+       
       <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
   <Link href="/Guide">
   <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
     </Link>
   </button>
-  <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
-  <Link href="/tutorials/map">
-  <h3 className="text-1xl font-bold">แผนที่เกม</h3>
-    </Link>
-  </button>
-  <button
-  className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
->
-<Link href="/tutorials/develop">
-  <h3 className="text-1xl font-bold">ประกาศอัปเดต</h3>
-    </Link>
-</button>
 
 </div>
 </div>

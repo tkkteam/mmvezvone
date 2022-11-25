@@ -128,6 +128,69 @@ import Nav from "../../components/Nav";
 	<div>
 	  <div className="relative block h-full">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
+    <Link href="/learning/5" passHref>
+    <Image 
+            width={450}
+            height={350}
+            src="https://i.ibb.co/NxP91Sr/work.png"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" object-cover w-full  hover:opacity-50"
+          />
+        </Link>
+</div>
+	  </div>
+	</div>
+	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
+  <p>ข้อมูลกล่อง Orange Box</p>
+	</h2>
+  </div>
+  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
+	<div>
+	  <div className="relative block h-full">
+    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
+    
+    <Image 
+            width={450}
+            height={350}
+            src="https://i.ibb.co/3kTLrqb/comingsoon.jpg"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" object-cover w-full  hover:opacity-50"
+          />
+         
+</div>
+	  </div>
+	</div>
+	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
+  <p>coming soon</p>
+	</h2>
+  </div>
+  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
+	<div>
+	  <div className="relative block h-full">
+    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
+    
+    <Image 
+            width={450}
+            height={350}
+            src="https://i.ibb.co/3kTLrqb/comingsoon.jpg"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" object-cover w-full  hover:opacity-50"
+          />
+         
+</div>
+	  </div>
+	</div>
+	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
+  <p>coming soon</p>
+	</h2>
+  </div>
+  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
+	<div>
+	  <div className="relative block h-full">
+    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
     
     <Image 
             width={450}
@@ -146,6 +209,7 @@ import Nav from "../../components/Nav";
 	</h2>
   </div>
   </div>
+  
   
      
       
