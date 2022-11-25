@@ -247,8 +247,8 @@ const Boxmmv: NextPage = () => {
           <Image
             src={
               giftbox === "giftshow"
-                ? "/Box/box_CowBox.png"
-                : `/Box/box_${allbox}.png`
+                ? "/Box/Box_CowBox.png"
+                : `/Box/Box_${allbox}.png`
             }
             alt="box"
             width={250}
