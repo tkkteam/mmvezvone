@@ -6,11 +6,15 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     
-  <nav className="navbar bg-base-100 sticky top-0 z-50 flex space-x-2 shadow-lg">
+    <nav className="navbar bg-base-100 sticky top-0 z-50 flex space-x-2 shadow-lg">
    <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-      <p>MENU</p>
+         <Image
+            src="/icons/MENU.png"
+            alt="mmv-logo"
+            width={60}
+            height={60}
+          />
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link href="/"passHref>คำนวณผลผลิตต่อวัน</Link></li>
@@ -20,16 +24,48 @@ const Navbar = () => {
       </ul>
     </div>
       <div className="flex flex-1 ml-2 space-x-2">
-        <div className="aspect-square flex flex-col items-center justify-center w-10 h-10">
+        <div className="aspect-square flex flex-col items-center justify-center">
+        <Link href="https://whitepaper.morningmoonvillage.com/">
+            <a target="_blank"> 
           <Image
-            src="/icons/mmv_logo.png"
+          className="hover:opacity-60"
+            src="/icons/btn_whitepaper_desktop.png"
             alt="mmv-logo"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
           />
+           </a>
+        </Link>
         </div>
-        <span className="select-none font-medium  text-center ">MMV Calculator</span> 
-      </div>
+        
+        <div className="aspect-square flex flex-col items-center justify-center">
+        <Link href="https://mmv.megaland.io/">
+            <a target="_blank"> 
+          <Image
+          className="hover:opacity-60"
+            src="/icons/btn_marketplace.png"
+            alt="mmv-logo"
+            width={60}
+            height={60}
+          />    
+        </a>
+        </Link>
+        </div>
+        
+        <div className="aspect-square flex flex-col items-center justify-center ">
+        <Link href="https://morningmoonvillage.com/leaderboard">
+            <a target="_blank"> 
+          <Image
+          className="hover:opacity-60"
+            src="/icons/btn_fishingLeaderbaord.png"
+            alt="mmv-logo"
+            width={60}
+            height={60}
+          />
+           </a>
+        </Link>
+        </div>
+        </div>
       <Themes/>
     </nav>
   );
