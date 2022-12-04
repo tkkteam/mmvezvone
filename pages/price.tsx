@@ -537,7 +537,7 @@ function Price() {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/KM.png" alt="KM" width={80} height={80} />
+              <Image src="/icons/km.png" alt="KM" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
               <CSSTransition
@@ -571,7 +571,7 @@ function Price() {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/KM.png" alt="KM" width={80} height={80} />
+              <Image src="/icons/km.png" alt="KM" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
               <CSSTransition
@@ -606,7 +606,7 @@ function Price() {
          
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/SCP.png" alt="SCP" width={80} height={80} />
+              <Image src="/icons/scp.png" alt="scp" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
               <CSSTransition
@@ -640,7 +640,7 @@ function Price() {
           </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/SCP.png" alt="SCP" width={80} height={80} />
+              <Image src="/icons/scp.png" alt="scp" width={80} height={80} />
             </div>
             <div className="relative flex flex-col items-center justify-center flex-1 text-center">
               <CSSTransition
