@@ -23,12 +23,9 @@ type RewardMultiplier = 4 | 5 | 9 | 12 | 20 | 24;
 const Home: NextPage = () => {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
-  const [usdtdk, setusdtdk] = useState<number | null>(null);
-  const [usdtgold, setusdtgold] = useState<number | null>(null);
   const [usdlumi, setusdlumi] = useState<number | null>(null);
   const [kusdt, setkusdt] = useState<number | null>(null);
   const [thbUsdt, setThbUsdt] = useState<number | null>(null);
-  const [thbbtc, setThbbtc] = useState<number | null>(null);
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
   const [plantKind, setPlantKind] = useState<PlantKind>("SEED");
@@ -58,7 +55,6 @@ const Home: NextPage = () => {
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
     const responses = await Promise.all([
-      axios.get("https://api.bitkub.com/api/market/ticker?sym=THB_BTC"),
       axios.get("https://api.bitkub.com/api/market/ticker?sym=THB_KUB"),
       axios.get("https://api.bitkub.com/api/market/ticker?sym=THB_USDT"),
       axios.get<ILatestRates>("https://api.loremboard.finance/api/v1/dashboard/fiat/latest"),
@@ -70,29 +66,20 @@ const Home: NextPage = () => {
           now - 10000
         }&to=${now}&currencyCode=USD`
       ),
-      axios.get(`https://api.bkc.loremboard.finance/charts/history?symbol=DK&resolution=15&from=${
-          now - 10000
-        }&to=${now}&currencyCode=USD`
-      ),
+     
       axios.get(`https://api.bkc.loremboard.finance/charts/history?symbol=KUSDT&resolution=15&from=${
           now - 10000
         }&to=${now}&currencyCode=USD`
       ),
-      axios.get(`https://api.bkc.loremboard.finance/charts/history?symbol=GOLD&resolution=15&from=${
-          now - 10000
-        }&to=${now}&currencyCode=USD`
-      ),
+  
     ]);
-    setThbbtc(responses[0].data.THB_BTC.last);
-    setThbKub(responses[1].data.THB_KUB.last);
-    setThbUsdt(responses[2].data.THB_USDT.last);
-    setThbUsd(responses[3].data.rates.THB);
-    setThbLumi( responses[4].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.THB);
-    setusdtkkub( responses[5].data.c[responses[5].data.c.length - 1] *responses[3].data.rates.USD);
-    setusdtdk( responses[6].data.c[responses[6].data.c.length - 1] *responses[3].data.rates.USD);
-    setusdlumi( responses[4].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
-    setkusdt( responses[7].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
-    setusdtgold( responses[8].data.c[responses[4].data.c.length - 1] *responses[3].data.rates.USD);
+    setThbKub(responses[0].data.THB_KUB.last);
+    setThbUsdt(responses[1].data.THB_USDT.last);
+    setThbUsd(responses[2].data.rates.THB);
+    setThbLumi( responses[3].data.c[responses[3].data.c.length - 1] *responses[2].data.rates.THB);
+    setusdtkkub( responses[4].data.c[responses[4].data.c.length - 1] *responses[2].data.rates.USD);
+    setusdlumi( responses[3].data.c[responses[3].data.c.length - 1] *responses[2].data.rates.USD);
+    setkusdt( responses[5].data.c[responses[5].data.c.length - 1] *responses[2].data.rates.USD);
   };
 
   useEffect(() => {
@@ -324,10 +311,6 @@ const Home: NextPage = () => {
               case 92:
                 setThbKub(last);
                 break;
-
-              case 1:
-                setThbbtc(last);
-                break;
             }
           } catch (error) {
             if (error instanceof SyntaxError) {
@@ -536,6 +519,11 @@ const Home: NextPage = () => {
       <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
   <Link href="/Guide">
   <h3 className="text-1xl font-bold">แนะนำการเล่นเกม</h3>
+    </Link>
+  </button>
+  <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
+  <Link href="/price"> 
+  <h3 className="text-1xl font-bold">ราคาเหรียญ</h3>
     </Link>
   </button>
 
@@ -754,75 +742,7 @@ const Home: NextPage = () => {
               </CSSTransition>
             </div>
           </div> 
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/btc.png" alt="btc" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!thbbtc}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!thbbtc}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(thbbtc || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">THB/BTC</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
           
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/dkusd.png" alt="dkusd" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!usdtdk}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!usdtdk}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(usdtdk || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">USD/DK</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
           <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <svg
@@ -871,41 +791,6 @@ const Home: NextPage = () => {
               </CSSTransition>
             </div>
           </div>
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
-            <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
-              <Image src="/icons/gold.jpg" alt="gold" width={80} height={80} />
-            </div>
-            <div className="relative flex flex-col items-center justify-center flex-1 text-center">
-              <CSSTransition
-                in={!usdtgold}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <Image
-                  className="absolute"
-                  src="/images/chicken_loading.gif"
-                  alt="chicken_loading"
-                  width={36}
-                  height={36}
-                />
-              </CSSTransition>
-              <CSSTransition
-                in={!!usdtgold}
-                timeout={150}
-                classNames="pop"
-                unmountOnExit
-              >
-                <div className="absolute flex flex-col">
-                  <h1 className="font-bold">
-                    {(usdtgold || 0).toLocaleString("th-TH")}
-                  </h1>
-                  <p className="text-2xs opacity-60">USD/GOLD</p>
-                </div>
-              </CSSTransition>
-            </div>
-          </div>
-          
           
         </div>
 		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
