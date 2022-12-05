@@ -6,6 +6,7 @@ import axios from "axios";
 import {IBitkubTicker,ILatestRates,IUsdLumiCurrentPrice,} from "../interfaces/responses";
 import Navcoin from "../components/Navcoin";
 import { CSSTransition } from "react-transition-group";
+import useSWR from "swr";
 
 
 function Price() {
@@ -76,7 +77,7 @@ function Price() {
     setThbLumi( responses[3].data.c[responses[3].data.c.length - 1] *responses[2].data.rates.THB);
     setusdtkkub( responses[4].data.c[responses[4].data.c.length - 1] *responses[2].data.rates.USD);
     setusdtdk( responses[5].data.c[responses[5].data.c.length - 1] *responses[2].data.rates.USD);
-    setusdlumi( responses[4].data.c[responses[4].data.c.length - 1] *responses[2].data.rates.USD);
+    setusdlumi( responses[3].data.c[responses[3].data.c.length - 1] *responses[2].data.rates.USD);
     setkusdt( responses[6].data.c[responses[6].data.c.length - 1] *responses[2].data.rates.USD);
     setusdtgold( responses[7].data.c[responses[7].data.c.length - 1] *responses[2].data.rates.USD);
     setusdKM( responses[8].data.c[responses[8].data.c.length - 1] *responses[2].data.rates.USD);
@@ -91,7 +92,41 @@ function Price() {
    
     
   };
+  useSWR(
+    "https://api.loremboard.finance/api/v1/dashboard/fiat/latest",
+    async (apiPath) => {
+      const latestRatesResponse = await axios.get<ILatestRates>(apiPath);
+      setThbUsd(latestRatesResponse.data.rates.THB);
+    },
+    {
+      refreshInterval: 10000,
+      revalidateOnFocus: true,
+    }
+  );
+  
+  useSWR(
+    "lumiUsdCurrentPrice",
+    async () => {
+      const now = Math.floor(Date.now() / 1000);
 
+      const usdLumiCurrentPriceResponse = await axios.get<IUsdLumiCurrentPrice>(
+        `https://api.bkc.loremboard.finance/charts/history?symbol=LUMI&resolution=120&from=${
+          now - 10000
+        }&to=${now}&currencyCode=USD`
+      );
+
+      setThbLumi(
+        (thbUsd || 0) *
+          usdLumiCurrentPriceResponse.data.c[
+            usdLumiCurrentPriceResponse.data.c.length - 1
+          ]
+      );
+    },
+    {
+      refreshInterval: 10000,
+      revalidateOnFocus: true,
+    }
+  );
   useEffect(() => {
     initialRates();
   }, []);
