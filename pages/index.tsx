@@ -794,7 +794,7 @@ const Home: NextPage = () => {
           
         </div>
 		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
-            <Link href="https://www.facebook.com/commutoken/">
+            <Link href="https://www.facebook.com/cmhexa">
             <a target="_blank">
             <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
             </a>
