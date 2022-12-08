@@ -20,7 +20,7 @@ import Head from "next/head";
                 height={100}
               />
               </div>
-         <iframe src="http://martserver.dyndns.org/support/Chart.php?TokenAddress=0xb973de1fabdd269ea2e6710151516d40c82585ef&timeselect=24h" width="600" height="350"></iframe>
+         <iframe src="https://martserver.dyndns.org/support/Chart.php?TokenAddress=0xb973de1fabdd269ea2e6710151516d40c82585ef&timeselect=24h" width="600" height="350"></iframe>
         </div> 
         </div> 
         </div>
