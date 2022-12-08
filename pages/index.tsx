@@ -743,7 +743,7 @@ const Home: NextPage = () => {
             </div>
           </div> 
           
-          <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
+          {/* <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -790,9 +790,11 @@ const Home: NextPage = () => {
                 </div>
               </CSSTransition>
             </div>
-          </div>
-          
+          </div> 
+          */}
+         
         </div>
+       
 		        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
             <Link href="https://www.facebook.com/cmhexa">
             <a target="_blank">
