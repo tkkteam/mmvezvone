@@ -543,7 +543,23 @@ const Home: NextPage = () => {
             <span className="relative text-black group-hover:text-white">เช็คจำนวน Token</span>
             </button>
             </a>
-        </Link>       
+        </Link>  
+        <Link href="https://www.p2pcontract.finance/">
+            <a target="_blank">
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-blue-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">p2pContract</span>
+            </button>
+            </a>
+        </Link> 
+        
+        </div>  
+        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
+            <Link href="https://www.facebook.com/cmhexa">
+            <a target="_blank">
+            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
+            </a>
+          </Link>  
         </div>  
         <div className="text-center">
         <iframe src="https://www.youtube.com/embed/4aRsRiD_l94?autoplay=1&mute=1" 
