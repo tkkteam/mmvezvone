@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import axios from "axios";
 import Marquee from "react-fast-marquee";
-
 import {
   IBitkubTicker,
   ILatestRates,
@@ -13,7 +11,6 @@ import {
 import Link from "next/link";
 import useSWR from "swr";
 import Navbar from "../components/Navbar";
-import { CSSTransition } from "react-transition-group";
 
 type PlantKind = "SEED" | "STEM" | "LUMI";
 type StemLP = "LKKUB" | "LKUSDT";
@@ -45,7 +42,7 @@ const Home: NextPage = () => {
   const [plantAmount, setPlantAmount] = useState<number | null>(null);
   const [totalLiquidity, setTotalLiquidity] = useState<number | null>(null);
   const [totalLiquidities, setTotalLiquidities] = useState<
-    {
+  {
       name: string;
       totalLiquidity: number;
     }[]
@@ -492,7 +489,7 @@ const Home: NextPage = () => {
       <Navbar />
       <div>
       <div className="text-green-500">
-<Marquee
+      <Marquee
         speed={70} // Speed of the marquee (Optional)
         style={{
           height: 40 // Your own styling (Optional)
@@ -502,82 +499,60 @@ const Home: NextPage = () => {
         <p>เซิร์ฟเวอร์เปิดให้บริการตามปกติ หากทางผู้เล่นพบปัญหาในการเล่นเกม สามารถแจ้งปัญหาหรือติดต่อได้ที่ Facbook:<Link href="https://www.facebook.com/MorningMoonVillageOfficial">
             <a target="_blank">
            MorningMoonVillageOfficial
-            </a>
-            
+            </a>    
           </Link>
-          
-    </p>
-       
+        </p>   
       </Marquee>
-      
       </div>
-        </div> 
-        
-      <div className="flex flex-col">
-       <div className="flex-1 text-center p-5">
-      <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
-  <Link href="/Guide">
-  <h3 className="text-1xl font-bold">แนะนำการเล่น</h3>
-    </Link>
-  </button>
-  <button className="py-1.5 px-4 transition-colors bg-gray-50 border active:bg-blue-800 font-medium border-gray-200 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50">
-  <Link href="/price"> 
-  <h3 className="text-1xl font-bold">ราคาเหรียญ</h3>
-    </Link>
-  </button>
+  </div> 
 
-</div>
-</div>
-      <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
-        <div className="flex flex-col">
-       <div className="flex-1 text-center p-5">
-       <Link href="/calculator">
-		<button className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group">
-		<span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span className="absolute flex items-center justify-center w-full h-full text-green-500 transition-all duration-300 transform group-hover:translate-x-full ease">คำนวณผลผลิต</span>
-<span className="relative invisible">คำนวณผลผลิต</span>
-		</button>
-		</Link>
-       <Link href="https://mmvplus.vercel.app/">
-        <a target="_blank">
-		<button className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group">
-		<span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-green-500 group-hover:translate-x-0 ease">
-<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span className="absolute flex items-center justify-center w-full h-full text-red-500 transition-all duration-300 transform group-hover:translate-x-full ease">MMV สลากพลัส</span>
-<span className="relative invisible">MMV สลากพลัส</span>
-		</button>
-		</a>
-		</Link>
-  <Link href="https://www.cmhexa.com/lookdo/">
-        <a target="_blank">
-		<button className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group">
-		<span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-red-500 group-hover:translate-x-0 ease">
-<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span className="absolute flex items-center justify-center w-full h-full text-green-500 transition-all duration-300 transform group-hover:translate-x-full ease">เช็คจำนวนTOKEN</span>
-<span className="relative invisible">เช็คจำนวนTOKEN</span>
-		</button>
-		</a>
-		</Link>
-</div>
-</div>
-<div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
-            <Link href="https://www.facebook.com/cmhexa">
+<div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
+<div className="grid grid-cols-2 gap-4 mx-auto">
+        <Link href="/price"> 
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-green-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">ราคาเหรียญ</span>
+            </button>
+        </Link>
+        <Link href="/calculator">
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-red-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">คำนวณผลผลิต</span>
+            </button>
+        </Link>
+        <Link href="/Guide">
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">แนะนำการเล่น</span>
+            </button>
+        </Link>
+    
+        <Link href="https://mmvplus.vercel.app/">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-red-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">MMV สลากพลัส</span>
+            </button>
             </a>
-          </Link>
-        </div>
-          <div className="p-2 pl-5 pr-5  text-gray-100 text-lg rounded-lg focus:border-4  text-center">
-          <Link href="https://www.p2pcontract.finance/">
+        </Link>
+
+        <Link href="https://www.cmhexa.com/lookdo/">
             <a target="_blank">
-            <h3 className="text-1xl font-bold text-indigo-500 animate-bounce">เว็บแลกเปลี่ยนผลผลิต p2pcontract</h3>
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-blue-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">เช็คจำนวน Token</span>
+            </button>
             </a>
-          </Link>
-        </div>
+        </Link>       
+        </div>  
+        <div className="text-center">
+        <iframe src="https://www.youtube.com/embed/vwyCEJmu3Iw?autoplay=1&mute=1" 
+         width="600" 
+         height="350" 
+         frameBorder="0" 
+         allowFullScreen 
+         allow="autoplay; encrypted-media"></iframe>
+        </div> 
         <div className="p-2 pl-5 pr-5 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300 text-center">
         <p>ช่อง Youtube ที่สอนเทคนิคการเล่นเกม Morningmoon Village</p>
         </div> 
