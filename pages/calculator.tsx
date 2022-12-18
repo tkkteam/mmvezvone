@@ -27,14 +27,14 @@ const Calculator: NextPage = () => {
   const [thbUsdt, setThbUsdt] = useState<number | null>(null);
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
-  const [plantKind, setPlantKind] = useState<PlantKind>("SEED");
-  const [stemLP, setStemLP] = useState<StemLP>("LKKUB");
-  const [stemLkusdtCompose, setStemLkusdtCompose] = useState<{
+  const [plantKind] = useState<PlantKind>("SEED");
+  const [stemLP] = useState<StemLP>("LKKUB");
+  const [stemLkusdtCompose] = useState<{
     lumi: number;
     kusdt: number;
   }>();
   const [stemLkusdtPrice, setStemLkusdtPrice] = useState<number>();
-  const [stemLkkubCompose, setStemLkkubCompose] = useState<{
+  const [stemLkkubCompose] = useState<{
     lumi: number;
     kkub: number;
   }>();
@@ -395,8 +395,9 @@ const Calculator: NextPage = () => {
     totalLiquidity,
   ]);
 
-       
+ 
   return (
+    
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
         <title>MorningmoonVillage Calculator</title>
