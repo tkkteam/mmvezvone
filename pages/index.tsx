@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
-        <title>MorningmoonVillage Calculator</title>
+        <title>Morning Moon Village Calculator</title>
       </Head>   
       
       <Navbar />
@@ -82,24 +82,11 @@ const Home: NextPage = () => {
         </Link> 
         
         </div>  
-        <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
-          <h1 className="text-lg font-medium text-center">เพจเฟสบุ๊ค Partner</h1>
+        <div className="card bg-yellow-400 flex flex-col p-2 space-y-4 overflow-hidden shadow-lg">
+          <h1 className="text-lg text-black font-medium text-center">Facebook Partner</h1>
       </div>
-      <div className="grid grid-cols-3 gap-4 mx-auto">
-        <div className="w-full rounded hover:opacity-50">
-        <Link href="https://www.facebook.com/cmhexa">
-            <a target="_blank">
-            <Image 
-            width={100}
-            height={100}
-            src="https://i.ibb.co/7nNCVY8/CM.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" max-w-full h-auto rounded-lg"
-          />
-            </a>
-          </Link>
-    </div>
+      <div className="grid grid-cols-6 gap-4 mx-auto">
+        
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.facebook.com/MorningMoonVillageOfficial">
             <a target="_blank">
@@ -128,6 +115,22 @@ const Home: NextPage = () => {
             </a>
           </Link>
     </div>
+    
+    <div className="w-full rounded hover:opacity-50">
+    <Link href="https://www.facebook.com/groups/3234826200135819">
+            <a target="_blank">
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/bdtDWLB/mmvmarket.jpg"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+          />    
+           </a>
+          </Link>
+    </div>
+
     <div className="w-full rounded hover:opacity-50">
     <Link href="https://www.facebook.com/Bitkubacademy">
             <a target="_blank">
@@ -142,32 +145,37 @@ const Home: NextPage = () => {
             </a>
           </Link>
     </div>
+
     <div className="w-full rounded hover:opacity-50">
-   
+        <Link href="https://www.facebook.com/cmhexa">
+            <a target="_blank">
             <Image 
             width={100}
             height={100}
-            src="https://i.ibb.co/YNPMr3Q/nologo.jpg"
+            src="https://i.ibb.co/7nNCVY8/CM.png"
             objectFit="cover"
-            alt="avatar"
+            alt="mmv_logo"
             className=" max-w-full h-auto rounded-lg"
-          />    
-         
+          />
+            </a>
+          </Link>
     </div>
     <div className="w-full rounded hover:opacity-50">
     
-  
+    <Link href="https://www.facebook.com/groups/665357544709164">
+            <a target="_blank">
             <Image 
             width={100}
             height={100}
-            src="https://i.ibb.co/YNPMr3Q/nologo.jpg"
+            src="https://i.ibb.co/tHwGpS3/mmvfree.jpg"
             objectFit="cover"
             alt="avatar"
-            className=" max-w-full h-auto rounded-lg "
+            className=" max-w-full h-auto rounded-lg"
           />      
-          
-         
+          </a>
+          </Link>
     </div>
+
     </div>
         <div className="p-2 pl-5 pr-5 bg-red-400 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300 text-center">
         <p>LIVE สด : วันที่ 18/12/2565 กีฬาสีซีซั่น 2 รอบไม่จำกัดอาวุธ</p>
