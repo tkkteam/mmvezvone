@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import YoutubeEmbed from "../components/YoutubeEmbed";
+import Image from "next/image";
 
 const Home: NextPage = () => {
     
@@ -81,18 +82,98 @@ const Home: NextPage = () => {
         </Link> 
         
         </div>  
-        <div className="flex-1 p-5 text-2xl  flex items-center justify-center text-center">
-            <Link href="https://www.facebook.com/cmhexa">
+        <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
+          <h1 className="text-lg font-medium text-center">เพจเฟสบุ๊ค Partner</h1>
+      </div>
+      <div className="grid grid-cols-3 gap-4 mx-auto">
+        <div className="w-full rounded hover:opacity-50">
+        <Link href="https://www.facebook.com/cmhexa">
             <a target="_blank">
-            <img className="max-w-full h-auto rounded-lg" src="https://i.ibb.co/YBJWCMz/Banner1.png" />
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/7nNCVY8/CM.png"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" max-w-full h-auto rounded-lg"
+          />
             </a>
-          </Link>  
-        </div>  
-        
-        <div className="text-center">
-      <h1>วันที่ 18/12/2565 กีฬาสีซีซั่น 2 รอบไม่จำกัดอาวุธ</h1>
-      <YoutubeEmbed embedId="4aRsRiD_l94" />
+          </Link>
     </div>
+    <div className="w-full rounded hover:opacity-50">
+    <Link href="https://www.facebook.com/MorningMoonVillageOfficial">
+            <a target="_blank">
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/ftr6j5j/mmvoff.jpg"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" max-w-full h-auto rounded-lg"
+          />
+            </a>
+          </Link>
+    </div>
+    <div className="w-full rounded hover:opacity-50">
+    <Link href="https://www.facebook.com/PondKub101">
+            <a target="_blank">
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/qF2vLbb/PONDKUB.png"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" max-w-full h-auto rounded-lg"
+          />
+            </a>
+          </Link>
+    </div>
+    <div className="w-full rounded hover:opacity-50">
+    <Link href="https://www.facebook.com/Bitkubacademy">
+            <a target="_blank">
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/vxx5wPz/bkacademy.jpg"
+            objectFit="cover"
+            alt="mmv_logo"
+            className=" max-w-full h-auto rounded-lg"
+          />
+            </a>
+          </Link>
+    </div>
+    <div className="w-full rounded hover:opacity-50">
+   
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/YNPMr3Q/nologo.jpg"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+          />    
+         
+    </div>
+    <div className="w-full rounded hover:opacity-50">
+    
+  
+            <Image 
+            width={100}
+            height={100}
+            src="https://i.ibb.co/YNPMr3Q/nologo.jpg"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg "
+          />      
+          
+         
+    </div>
+    </div>
+        <div className="p-2 pl-5 pr-5 bg-red-400 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300 text-center">
+        <p>LIVE สด : วันที่ 18/12/2565 กีฬาสีซีซั่น 2 รอบไม่จำกัดอาวุธ</p>
+        <YoutubeEmbed embedId="4aRsRiD_l94" />
+        </div> 
+      
         
         <div className="p-2 pl-5 pr-5 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300 text-center">
         <p>ช่อง Youtube ที่สอนเทคนิคการเล่นเกม Morningmoon Village</p>
