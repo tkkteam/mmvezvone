@@ -178,8 +178,7 @@ const Home: NextPage = () => {
 
     </div>
         <div className="p-2 pl-5 pr-5 bg-red-400 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300 text-center">
-        <p>LIVE สด : วันที่ 18/12/2565 กีฬาสีซีซั่น 2 รอบไม่จำกัดอาวุธ</p>
-        <YoutubeEmbed embedId="NdYKi23-i8E" />
+        <YoutubeEmbed embedId="vwyCEJmu3Iw" />
         </div> 
       
         
