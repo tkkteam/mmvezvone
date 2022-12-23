@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       </Head>   
       
       <Navbar />
+     
       <div>
       <div className="text-green-500">
       <Marquee
@@ -33,7 +34,6 @@ const Home: NextPage = () => {
       </Marquee>
       </div>
   </div> 
-
 <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
 <div className="grid grid-cols-2 gap-4 mx-auto">
         <Link href="/price"> 
@@ -132,12 +132,12 @@ const Home: NextPage = () => {
     </div>
 
     <div className="w-full rounded hover:opacity-50">
-    <Link href="https://www.facebook.com/Bitkubacademy">
+    <Link href="https://www.facebook.com/groups/morningmoonvillage">
             <a target="_blank">
             <Image 
             width={100}
             height={100}
-            src="https://i.ibb.co/vxx5wPz/bkacademy.jpg"
+            src="https://i.ibb.co/X7BQjG7/MMVGROUP.png"
             objectFit="cover"
             alt="mmv_logo"
             className=" max-w-full h-auto rounded-lg"
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
             <Image 
             width={100}
             height={100}
-            src="https://i.ibb.co/7nNCVY8/CM.png"
+            src="https://i.ibb.co/CtcPwmP/CM.png"
             objectFit="cover"
             alt="mmv_logo"
             className=" max-w-full h-auto rounded-lg"
