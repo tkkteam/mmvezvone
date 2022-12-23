@@ -10,7 +10,7 @@ import {
   IUsdLumiCurrentPrice,
 } from "../interfaces/responses";
 import useSWR from "swr";
-import Nav from "../components/Nav";
+import Navback from "../components/Navback";
 import { CSSTransition } from "react-transition-group";
 
 
@@ -402,7 +402,7 @@ const Calculator: NextPage = () => {
       <Head>
         <title>MorningmoonVillage Calculator</title>
       </Head>   
-      <Nav />
+      <Navback />
       <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
         <div className="grid  grid-cols-2 gap-4 ">
         

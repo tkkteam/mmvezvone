@@ -72,13 +72,13 @@ const Home: NextPage = () => {
             </button>
             </a>
         </Link>  
-        <Link href="https://www.p2pcontract.finance/">
-            <a target="_blank">
+        <Link href="/cmtoken/cmdungeon">
+          
             <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
             <div className="absolute inset-0 w-3 bg-blue-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">p2pContract</span>
+            <span className="relative text-black group-hover:text-white">CM Dungeon</span>
             </button>
-            </a>
+          
         </Link> 
         
         </div>  
