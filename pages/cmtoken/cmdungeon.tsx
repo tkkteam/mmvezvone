@@ -29,7 +29,7 @@ function cmdun() {
       </button>
         </div>   
 
-        <p>1. User ต้องเล่นเกม Morning Moon Village ผ่าน Metamask เข้าเกมได้ที่นี้  <Link href="https://play.morningmoonvillage.com">
+        <p>1. User ต้องเล่นเกม Morning Moon Village ผ่าน Metamask เข้าเกมได้ที่นี่  <Link href="https://play.morningmoonvillage.com">
     <a target="_blank"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
         เข้าเกม Morning Moon Village</button></a>
     </Link></p>
