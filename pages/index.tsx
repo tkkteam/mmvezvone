@@ -55,15 +55,7 @@ const Home: NextPage = () => {
             </button>
         </Link>
     
-        <Link href="https://mmvplus.vercel.app/">
-            <a target="_blank">
-            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-            <div className="absolute inset-0 w-3 bg-red-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">MMV สลากพลัส</span>
-            </button>
-            </a>
-        </Link>
-
+    
         <Link href="https://www.cmhexa.com/lookdo/">
             <a target="_blank">
             <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
@@ -72,19 +64,13 @@ const Home: NextPage = () => {
             </button>
             </a>
         </Link>  
-        <Link href="/cmtoken/cmdungeon">
-          
-            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-            <div className="absolute inset-0 w-3 bg-blue-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">CM Dungeon</span>
-            </button>
-          
-        </Link> 
-        <Link href="/Daruma/darumaquest">
+        
+        
+        <Link href="/activity/commu">
           
             <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
             <div className="absolute inset-0 w-3 bg-red-600 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">DARUMA 888</span>
+            <span className="relative text-black group-hover:text-white">ห้องกิจกรรม</span>
             </button>
           
         </Link> 
