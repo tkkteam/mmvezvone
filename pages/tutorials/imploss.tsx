@@ -16,19 +16,7 @@ function imploss() {
         <p>Impermannent loss คืออะไร</p>
         </div>
         
-        <div className="flex-1 text-center">
-      <div className="hover:opacity-50">
-       <Link href="/learning/guide" passHref>
-          <Image
-                src="/icons/backmenu.png"
-                alt="backmemu"
-                width={100}
-                height={100}
-              />
-              </Link>
-              
-              </div>
-              </div>
+        
         <div className="flex flex-col">
         <div className="flex-1 text-center">
       <Image 

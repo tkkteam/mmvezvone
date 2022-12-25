@@ -15,7 +15,7 @@ import Nav from "../../components/Nav";
       <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
           <h1 className="text-lg font-medium text-center">เกร็ดความรู้ทั่วไปเกี่ยวกับเกม MorningMoon Village</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
   <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
 	<div>
 	  <div className="relative block h-full">
@@ -141,6 +141,7 @@ import Nav from "../../components/Nav";
 </div>
 	  </div>
 	</div>
+  
 	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
   <p>ข้อมูลกล่อง Orange Box</p>
 	</h2>
@@ -149,21 +150,21 @@ import Nav from "../../components/Nav";
 	<div>
 	  <div className="relative block h-full">
     <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    
+    <Link href="/learning/6" passHref>
     <Image 
             width={450}
             height={350}
-            src="https://i.ibb.co/3kTLrqb/comingsoon.jpg"
+            src="https://i.ibb.co/NxP91Sr/work.png"
             objectFit="cover"
             alt="mmv_logo"
             className=" object-cover w-full  hover:opacity-50"
           />
-         
+         </Link>
 </div>
 	  </div>
 	</div>
 	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>coming soon</p>
+  <p>การ์ดบิงโก</p>
 	</h2>
   </div>
   <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">

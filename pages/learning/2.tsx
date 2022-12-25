@@ -23,19 +23,7 @@ import Nav from "../../components/Nav";
           <p>🔸 Liquidity Pool ของ Gill-Lumi จะมีสภาพคล่องเริ่มต้นที่ 80,000,000 Gill และ 8,000,000 Lumi</p>
       </div>
       </div>
-      <div className="flex-1 text-center">
-      <div className="hover:opacity-50">
-       <Link href="/learning/guide" passHref>
-          <Image
-                src="/icons/backmenu.png"
-                alt="backmemu"
-                width={100}
-                height={100}
-              />
-              </Link>
-              
-              </div>
-              </div>
+     
       <div className="flex flex-col">
         <div className="flex-1 text-center">
       <Image 
