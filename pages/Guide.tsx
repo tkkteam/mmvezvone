@@ -129,8 +129,54 @@ import Image from "next/image";
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#กล่องของขวัญ</span>
       </div>
       </div>
+      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+    <Link href="/learning/damage" passHref>
+      <a>
+    <Image 
+    width={450}
+    height={350}
+    src="https://i.ibb.co/b5Z5fVm/damage.png"
+    objectFit="cover"
+    alt="learning"
+    className="object-cover w-full h-50 hover:opacity-50"
+                />
+                </a>
+          </Link>
+          </div>
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">โปรแกรมคำนวณดาเมจ</div>
+        <p className="text-base">โปรแกรมคำนวณดาเมจเป็นเวอร์ชั่นที่ใช้ในคอม้ท่านั้น ผู้ใช้งานต้องดาวน์โหลดไฟล์เพื่อติดตั้งลงคอมของท่านเองและต่อไปกำลังพัฒนาให้คำนวนการกินเลือดและพลังป้องกัน </p>
+      </div>
+        <div className="px-6 pt-4">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#PONDKUB APP</span>
       </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      </div>
+      
   
   );
 };
