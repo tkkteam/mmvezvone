@@ -46,7 +46,7 @@ export default function store() {
                 <tbody className="divide-y divide-red-200">
                 <tr>
                         <td className="px-6 py-4">
-                            <div className="flex items-center space-x-3">
+                            <div className="flex items-center space-x-3 mx-auto">
                                 <div className="inline-flex w-10 h-10"> <img className="w-10 h-10 object-cover rounded-full" alt="User avatar" src="https://i.ibb.co/fGhJztw/admin1.jpg" /> </div>
                                 <div>
                                     <p> Visarut RT </p>
@@ -93,7 +93,7 @@ export default function store() {
 
 
 
-      <div className="min-h-screen bg-red-800 py-5">
+      <div className="min-h-screen bg-red-800 py-5 mx-auto">
         <div className="overflow-x-auto w-full">
             
             <table className="mx-auto max-w-4xl w-full whitespace-nowrap rounded-lg bg-white divide-y divide-red-300 overflow-hidden">
@@ -112,8 +112,9 @@ export default function store() {
                                 <div className="inline-flex w-10 h-10"> <img className="w-10 h-10 object-cover rounded-full" alt="User avatar" src="https://i.ibb.co/SKpLzG8/saller08.jpg" /> </div>
                                 <div>
                                     <p> Bam Sirapim </p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เจมตีมอน #อาวุธ #เซ็ตล่าบอส #Logky #Ozzy  </p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#ของคราฟ #ของตีบวก #เหรียญ #เมล็ด #ผลผลิต #น้ำยาผสมพันธุ์</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เจมตีมอน #อาวุธ #เซ็ตล่าบอส #Logky #Ozzy</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#ของคราฟ #ของตีบวก #เหรียญ #เมล็ด #ผลผลิต</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#น้ำยาผสมพันธุ์</p>
                                 </div>
                             </div>
                         </td>
@@ -139,6 +140,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -173,6 +179,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -205,6 +216,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -238,6 +254,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -271,6 +292,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -304,6 +330,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -337,6 +368,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -370,6 +406,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     
@@ -404,6 +445,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -437,6 +483,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -470,6 +521,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -503,6 +559,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -534,6 +595,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -567,6 +633,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -600,6 +671,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -638,6 +714,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -675,6 +756,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -712,6 +798,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -724,7 +815,8 @@ export default function store() {
                                 </div>
                                 <div>
                                     <p> Dulpithak Vivattananukull </p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #ของคราฟ #เจมตีมอน  #ของตีบวก #อาวุธ #เซ็ตล่าบอส  #เหรียญ(Lumi)  </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #ของคราฟ #เจมตีมอน #ของตีบวก #อาวุธ #เซ็ตล่าบอส</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#เหรียญ(Lumi) </p>
                                 </div>
                             </div>
                         </td>
@@ -749,6 +841,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -787,6 +884,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -827,6 +929,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -867,6 +974,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -908,6 +1020,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -920,8 +1037,9 @@ export default function store() {
                                 </div>
                                 <div>
                                     <p> เรื่องของ วันพรุ่งนี้</p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #แร่ #เจมตีมอน #อาวุธ #ถุงมือ #รองเท้า #ผ้าคลุม #แหวน #คิวปิด </p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#LOGKY #ของคราฟ #ของตีบวก #ผลไม้ #เหรียญ #เมล็ด #ผลผลิต #ยาเพิ่มเลือด </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #แร่ #เจมตีมอน #อาวุธ #ถุงมือ #รองเท้า #ผ้าคลุม</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#แหวน #คิวปิด #LOGKY #ของคราฟ #ของตีบวก #ผลไม้ </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#เหรียญ #เมล็ด #ผลผลิต #ยาเพิ่มเลือด</p>
                                 </div>
                             </div>
                         </td>
@@ -949,6 +1067,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -990,6 +1113,11 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
                                 </td>
                     </tr>
                     <tr>
@@ -1031,6 +1159,13 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+
+                            <button 
+                            type="button" 
+                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
+                                
                                 </td>
                     </tr>
 
