@@ -625,6 +625,7 @@ export default function store() {
                                     <a target="_blank">
                         <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
                         ดูเครดิต 
+                        
                         </span> 
                         </a>
                         </Link>
@@ -838,7 +839,7 @@ export default function store() {
                                 </div>
                                 <div>
                                     <p> Buay Chalern Romphoyai</p>
-                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #ผลไม้ </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เหรียญ #ผลผลิต </p>
                                 </div>
                             </div>
                         </td>
@@ -868,7 +869,170 @@ export default function store() {
                                 </Link>
                                 </td>
                     </tr>
-
+                    <tr>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center space-x-3">
+                                <div className="inline-flex w-10 h-10"> 
+                                <img className="w-10 h-10 object-cover rounded-full" 
+                                alt="User avatar" 
+                                src="https://i.ibb.co/mBj9Qt4/saller23.jpg" /> 
+                                </div>
+                                <div>
+                                    <p> Tanuki Nighttenji</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เจมตีมอน #อาวุธ #ผ้าคลุม #LOGKY #ของคราฟ</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#ของตีบวก #ผลไม้ #เหรียญ #เมล็ด </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4">
+                            <p className=""> คนขายประจำกลุ่ม </p>
+                            <p className="text-red-500 text-sm font-semibold tracking-wide"> MMV seller </p>
+                        </td>
+                        <td className="px-6 py-4 text-center"> 
+                        <span className="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span>
+                    
+                        <Link href="https://www.facebook.com/groups/morningmoonvillage/posts/731179114786792/">
+                                    <a target="_blank">
+                        <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
+                        ดูเครดิต 
+                        </span> 
+                        </a>
+                        </Link>
+    
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                        <Link href="https://www.facebook.com/groups/491556275415745/user/100000002275506/">
+                                    <a target="_blank">
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ดูสินค้า
+                                </button> 
+                                </a>
+                                </Link>
+                                </td>
+                    </tr>
+                    <tr>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center space-x-3">
+                                <div className="inline-flex w-10 h-10"> 
+                                <img className="w-10 h-10 object-cover rounded-full" 
+                                alt="User avatar" 
+                                src="https://i.ibb.co/TTJJ91H/saller24.jpg" /> 
+                                </div>
+                                <div>
+                                    <p> เรื่องของ วันพรุ่งนี้</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #แร่ #เจมตีมอน #อาวุธ #ถุงมือ #รองเท้า #ผ้าคลุม #แหวน #คิวปิด </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">#LOGKY #ของคราฟ #ของตีบวก #ผลไม้ #เหรียญ #เมล็ด #ผลผลิต #ยาเพิ่มเลือด </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4">
+                            <p className=""> คนขายประจำกลุ่ม </p>
+                            <p className="text-red-500 text-sm font-semibold tracking-wide"> MMV seller </p>
+                        </td>
+                        <td className="px-6 py-4 text-center"> 
+                        <span className="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span>
+                    
+                        <Link href="https://www.facebook.com/groups/morningmoonvillage/posts/856513155586720/">
+                                    <a target="_blank">
+                        <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
+                        ดูเครดิต 
+                        </span> 
+                        </a>
+                        </Link>
+    
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                        <Link href="https://www.facebook.com/groups/491556275415745/user/100009313426807/">
+                                    <a target="_blank">
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ดูสินค้า
+                                </button> 
+                                </a>
+                                </Link>
+                                </td>
+                    </tr>
+                    <tr>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center space-x-3">
+                                <div className="inline-flex w-10 h-10"> 
+                                <img className="w-10 h-10 object-cover rounded-full" 
+                                alt="User avatar" 
+                                src="https://i.ibb.co/h2w6Tvz/saller25.jpg" /> 
+                                </div>
+                                <div>
+                                    <p> Jakkrit Wongsamut</p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #ของคราฟ #เหรียญ #ผลผลิต </p>
+                                
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4">
+                            <p className=""> คนขายประจำกลุ่ม </p>
+                            <p className="text-red-500 text-sm font-semibold tracking-wide"> MMV seller </p>
+                        </td>
+                        <td className="px-6 py-4 text-center"> 
+                        <span className="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span>
+                    
+                        <Link href="https://www.facebook.com/groups/morningmoonvillage/posts/835320414372661/">
+                                    <a target="_blank">
+                        <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
+                        ดูเครดิต 
+                        </span> 
+                        </a>
+                        </Link>
+    
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                        <Link href="https://www.facebook.com/groups/491556275415745/user/1389056083/">
+                                    <a target="_blank">
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ดูสินค้า
+                                </button> 
+                                </a>
+                                </Link>
+                                </td>
+                    </tr>
+                    <tr>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center space-x-3">
+                                <div className="inline-flex w-10 h-10"> 
+                                <img className="w-10 h-10 object-cover rounded-full" 
+                                alt="User avatar" 
+                                src="https://i.ibb.co/ZJnHs20/saller26.png" /> 
+                                </div>
+                                <div>
+                                    <p> Suttisak Tantiroongruangkul </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เหรียญ #ของตีบวก #Logky #ozzy</p>
+                                
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4">
+                            <p className=""> คนขายประจำกลุ่ม </p>
+                            <p className="text-red-500 text-sm font-semibold tracking-wide"> MMV seller </p>
+                        </td>
+                        <td className="px-6 py-4 text-center"> 
+                        <span className="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span>
+                    
+                        <Link href="https://www.facebook.com/groups/morningmoonvillage/posts/856508822253820/">
+                                    <a target="_blank">
+                        <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
+                        ดูเครดิต 
+                        </span> 
+                        </a>
+                        </Link>
+    
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                        <Link href="https://www.facebook.com/groups/491556275415745/user/100001927470354/">
+                                    <a target="_blank">
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ดูสินค้า
+                                </button> 
+                                </a>
+                                </Link>
+                                </td>
+                    </tr>
 
                 </tbody>
             </table>
