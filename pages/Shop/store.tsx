@@ -148,11 +148,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x6A541A6b01614D5E738e3CE561aD82c35313804">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -187,11 +191,16 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                
+                            <Link href="https://www.megaland.io/profile?walletAddress=0x001168BF78E0b34482dF21a8ef503E4E8488f529">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -262,11 +271,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                 <Link href="https://www.megaland.io/profile?walletAddress=0x0d0EC911a56F4A33cCD6200B43dc3D022A689316">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -300,11 +313,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -338,11 +355,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x760f2f2dB43Dd24f53DF2A6AD50aEf1aBC61fB3d">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -376,11 +397,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -414,11 +439,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x73E81Ae6DfC9BAF00c3b2cA7f9762FF3C51dA975">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     
@@ -453,11 +482,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                 <Link href="https://www.megaland.io/profile?walletAddress=0x8bF04464dEA097A958e86ae5DE02F83f49ef0813">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -491,11 +524,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                 <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -529,11 +566,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0xC349a029fA8a047918d4261792ffcdB586AaeaFF">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -567,11 +608,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x45B2CE95A945a4E1201D3516f0Fc42FbD4EBACE6">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -603,11 +648,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -641,11 +690,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x2285D4f4FFe008D4E0ECAda5Fc12a6cE3FeD932e">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -679,11 +732,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -722,11 +779,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                               <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -764,11 +825,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -806,11 +871,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -849,11 +918,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                               <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -892,11 +965,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -937,11 +1014,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -982,11 +1063,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -1028,11 +1113,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -1075,11 +1164,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -1121,11 +1214,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                               <Link href="https://www.megaland.io">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -1168,15 +1265,69 @@ export default function store() {
                                 </a>
                                 </Link>
 
-                            <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                             <Link href="https://www.megaland.io">
+                                    <a target="_blank">
+                                <button 
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 
                                 </td>
                     </tr>
-
+                    <tr>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center space-x-3">
+                                <div className="inline-flex w-10 h-10"> 
+                                <img className="w-10 h-10 object-cover rounded-full" 
+                                alt="User avatar" 
+                                src="https://i.ibb.co/s13BFf5/saller26.jpg" /> 
+                                </div>
+                                <div>
+                                    <p> เฒ่าแก่ เกาลัด </p>
+                                    <p className="text-red-500 text-sm font-semibold tracking-wide">ขาย #เหรียญ</p>
+                                
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4">
+                            <p className=""> คนขายประจำกลุ่ม </p>
+                            <p className="text-red-500 text-sm font-semibold tracking-wide"> MMV seller </p>
+                        </td>
+                        <td className="px-6 py-4 text-center"> 
+                        <span className="text-white text-sm w-1/3 pb-1 bg-green-600 font-semibold px-2 rounded-full"> Active </span>
+                    
+                        <Link href="https://www.facebook.com/groups/morningmoonvillage/posts/776606723577364/">
+                                    <a target="_blank">
+                        <span className="text-black text-sm w-1/3 pb-1 bg-yellow-400 font-semibold px-2 rounded-full"> 
+                        ดูเครดิต 
+                        </span> 
+                        </a>
+                        </Link>
+    
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                        <Link href="https://www.facebook.com/groups/491556275415745/user/100045217209461/">
+                                    <a target="_blank">
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ดูสินค้า
+                                </button> 
+                                </a>
+                                </Link>
+								<Link href="https://www.megaland.io">
+                                    <a target="_blank">
+                                <button 
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Megaland
+                                </button> 
+                                    </a>
+                                </Link>
+                                
+                                </td>
+                    </tr>
                 </tbody>
             </table>
            
