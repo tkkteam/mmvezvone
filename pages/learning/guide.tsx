@@ -11,212 +11,112 @@ import Nav from "../../components/Nav";
         <title>ความรู้ทั่วไปเกี่ยวกับเกม</title>
       </Head> 
       <Nav/>
-      <div className="sm:max-w-screen-sm gap-y-4 container flex flex-col self-center flex-1 p-4">
+      <div className="sm:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
       <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
           <h1 className="text-lg font-medium text-center">เกร็ดความรู้ทั่วไปเกี่ยวกับเกม MorningMoon Village</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/1" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-          </Link>
-    
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>เกร็ดความรู้ THE MAYOR</p>
-	</h2>
-  </div>
-
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/2" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-          </Link>
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>ฟาร์ม Fish Pond (ฟาร์มบ่อปลา)</p>
-	</h2>
-  </div>
-
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/3" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-          </Link>
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>Material Box คืออะไร</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/tutorials/imploss" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-          </Link>
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>Impermannent loss คืออะไร</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/4" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-         </Link>
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>JEWELRY คืออะไร</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/5" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-        </Link>
-</div>
-	  </div>
-	</div>
-  
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>ข้อมูลกล่อง Orange Box</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    <Link href="/learning/6" passHref>
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/NxP91Sr/work.png"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-         </Link>
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>การ์ดบิงโก</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/3kTLrqb/comingsoon.jpg"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-         
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>coming soon</p>
-	</h2>
-  </div>
-  <div className="relative p-4 w-full bg-white rounded-lg overflow-hidden hover:shadow">
-	<div>
-	  <div className="relative block h-full">
-    <div className="flex flex-col xl:flex-row shadow hover:shadow-md w-full bg-white rounded-lg ">
-    
-    <Image 
-            width={450}
-            height={350}
-            src="https://i.ibb.co/3kTLrqb/comingsoon.jpg"
-            objectFit="cover"
-            alt="mmv_logo"
-            className=" object-cover w-full  hover:opacity-50"
-          />
-         
-</div>
-	  </div>
-	</div>
-	<h2 className="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
-  <p>coming soon</p>
-	</h2>
-  </div>
-  </div>
-  
-  
-     
       
-
-</div>
+      
+      <div className="grid grid-cols-2 gap-4 justify-evenly">
+  <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/1" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">เกร็ดความรู้ THE MAYOR</h2>
+      <p className="text-orange-700">
+      มีข้อความเมื่อไปคุยกับ NPC ไม่สามารถทำธุรกรรมได้ PLEASE CLAIMYOUR PENDING
+REWAREDS FROM WILD RESVLT  BEFORE
+      </p>
       </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/2" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">ฟาร์ม Fish Pond</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ ฟาร์ม Fish Pond (ฟาร์มบ่อปลา)
+      </p>
+      </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/3" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">Material Box คืออะไร</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ Material Box
+      </p>
+      </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/tutorials/imploss" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">Impermannent loss คืออะไร</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ Impermannent loss
+      </p>
+      </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/4" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">JEWELRY คืออะไร</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ JEWELRY
+      </p>
+      </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/5" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">ข้อมูลกล่อง Orange Box</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ กล่อง Orange Box
+      </p>
+      </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-2xl md:flex">
+  <Link href="/learning/6" passHref>
+    <img src="https://i.ibb.co/NxP91Sr/work.png" 
+    alt="Laptop on Desk" 
+    className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+    </Link>
+    <div className="p-6">
+      <h2 className="font-bold text-xl md:text-2xl mb-2 text-orange-700">การ์ดบิงโก</h2>
+      <p className="text-orange-700">
+      ข้อมูลทั่วไป เกี่ยกับ การ์ดบิงโก
+      </p>
+      </div>
+     
+      </div>
+     
+
+
+      </div>
+      </div>
+          </div>
   );
 };
 export default guide;
