@@ -148,7 +148,7 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
-                                <Link href="https://www.megaland.io/profile?walletAddress=0x6A541A6b01614D5E738e3CE561aD82c35313804">
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x6A541A6b01614D5E738e3CE561aD82c353138041">
                                     <a target="_blank">
                                 <button 
                                     type="button" 
@@ -233,11 +233,15 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x0d0EC911a56F4A33cCD6200B43dc3D022A689316">
+                                    <a target="_blank">
                                 <button 
-                            type="button" 
-                            className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    type="button" 
+                                    className="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Megaland
                                 </button> 
+                                    </a>
+                                </Link>
                                 </td>
                     </tr>
                     <tr>
@@ -271,7 +275,7 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
-                                 <Link href="https://www.megaland.io/profile?walletAddress=0x0d0EC911a56F4A33cCD6200B43dc3D022A689316">
+                                 <Link href="https://www.megaland.io">
                                     <a target="_blank">
                                 <button 
                                     type="button" 
