@@ -528,7 +528,7 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
-                                 <Link href="https://www.megaland.io">
+                                 <Link href="https://www.megaland.io/profile?walletAddress=0xabBA649Cb5079B522410024fD2fac092817e975C">
                                     <a target="_blank">
                                 <button 
                                     type="button" 
