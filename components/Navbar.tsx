@@ -19,7 +19,6 @@ const Navbar = () => {
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link href="/"passHref>หน้าหลัก</Link></li>
         <li><Link href="/calculator"passHref>คำนวณผลผลิตต่อวัน</Link></li>
-        <li><Link href="/tutorials/map"passHref>แผนที่เกม</Link></li>
         <li><Link href="/tutorials/develop"passHref>ประกาศอัปเดต</Link></li>
         <li><Link href="/xrb/Capsule"passHref>Capsule Chart</Link></li>
       </ul>
