@@ -829,7 +829,7 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
-                                <Link href="https://www.megaland.io">
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x76Db5B01C41E46Af0bFdb108c5862E0ab4cF95cb">
                                     <a target="_blank">
                                 <button 
                                     type="button" 
@@ -875,7 +875,7 @@ export default function store() {
                                 </button> 
                                 </a>
                                 </Link>
-                                <Link href="https://www.megaland.io">
+                                <Link href="https://www.megaland.io/profile?walletAddress=0x5D3f8dFAd5F693137219A7D5dF2703E35906Ee65">
                                     <a target="_blank">
                                 <button 
                                     type="button" 
